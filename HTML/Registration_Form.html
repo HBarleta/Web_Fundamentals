@@ -10,53 +10,53 @@
   <h1>Registration Form</h1>
   <div>
     <label>First Name: *</label>
-    <input type="text">
+    <input type="text" id="firstName">
   </div>
   <div>
     <p>
       <label>Last Name:*</label>
-      <input type="text">
+      <input type="text" id="lastName">
     </p>
   </div>
   <div>
     <p>
       <label>Email Address:*</label>
-      <input type="email">
+      <input type="email" id="emailAddress">
     </p>
   </div>
   <div>
     <p>
       <label>Password:*</label>
-      <input type="password">
+      <input type="password" id="password">
     </p>
   </div>
   <div>
     <p>
       <label>Confirm Password:*</label>
-      <input type="password">
+      <input type="password" id="confirmPassword">
     </p>
   </div>
   <div>
     <p>
       <label>Birthday:*</label>
-      <input type="date">
+      <input type="date" id="dob">
     </p>
   </div>
   <div>
     <p>Gender Identity:</p>
    
-    <input type="radio" value="Male" id="Male">
+    <input type="radio" value="Male" id="Male" name="genderIdentity">
     <label for="Male">Male</label>
-    <input type="radio" value="Female" id="Female">
+    <input type="radio" value="Female" id="Female" name="genderIdentity">
     <label for="Female">Female</label>
-    <input type="radio" value="Non-Binary" id="Non-Binary">
+    <input type="radio" value="Non-Binary" id="Non-Binary" name="genderIdentity">
     <label for="Non-Binary">Non-Binary</label>
-    <input type="radio" value="PreferNot" id="PreferNot">
+    <input type="radio" value="PreferNot" id="PreferNot" name="genderIdentity">
     <label for="PreferNot">I prefer not to answer</label>
   </div>
   <div>
     <p>A short description about myself:</p>
-    <textarea name="Description" cols="30" rows="4">
+    <textarea name="Description" cols="30" rows="4" id="description">
     </textarea>
   </div>
   <div>
@@ -71,12 +71,12 @@
     </p>
   </div>
   <div>
-    <input type="checkbox" id="checkbox">
+    <input type="checkbox" id="emailCheckbox">
     <label for="checkbox">Yes, I would like to receive periodic email updates</label>
   </div>
   <div>
     <p>
-      <input type="submit" value="Create Account">
+      <input type="submit" value="Create Account" id="createAccountButton">
     </p>
   </div>
   <p> * Indiates a required field</p>
