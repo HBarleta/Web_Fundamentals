@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <div>
+    <label>First Name: *</label>
+    <input type="text">
+  </div>
+  <div>
+    <p>
+      <label>Last Name:*</label>
+      <input type="text">
+    </p>
+  </div>
+  <div>
+    <p>
+      <label>Email Address:*</label>
+      <input type="email">
+    </p>
+  </div>
+  <div>
+    <p>
+      <label>Password:*</label>
+      <input type="password">
+    </p>
+  </div>
+  <div>
+    <p>
+      <label>Confirm Password:*</label>
+      <input type="password">
+    </p>
+  </div>
+  <div>
+    <p>
+      <label>Birthday:*</label>
+      <input type="date">
+    </p>
+  </div>
+  <div>
+    <p>Gender Identity:</p>
+   
+    <input type="radio" value="Male" id="Male">
+    <label for="Male">Male</label>
+    <input type="radio" value="Female" id="Female">
+    <label for="Female">Female</label>
+    <input type="radio" value="Non-Binary" id="Non-Binary">
+    <label for="Non-Binary">Non-Binary</label>
+    <input type="radio" value="PreferNot" id="PreferNot">
+    <label for="PreferNot">I prefer not to answer</label>
+  </div>
+  <div>
+    <p>A short description about myself:</p>
+    <textarea name="Description" cols="30" rows="4">
+    </textarea>
+  </div>
+  <div>
+    <p>
+      <label>Favorite Language</label>
+      <select name="Favorite Language" id="Favorite Language">
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="PHP">PHP</option>
+        <option value="Java">Java</option>
+      </select>
+    </p>
+  </div>
+  <div>
+    <input type="checkbox" id="checkbox">
+    <label for="checkbox">Yes, I would like to receive periodic email updates</label>
+  </div>
+  <div>
+    <p>
+      <input type="submit" value="Create Account">
+    </p>
+  </div>
+  <p> * Indiates a required field</p>
+</body>
+</html>
