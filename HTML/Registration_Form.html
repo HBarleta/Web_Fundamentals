@@ -7,80 +7,82 @@
   <title>Registration Form</title>
 </head>
 <body>
-  <h1>Registration Form</h1>
-  <div>
-    <label>First Name: *</label>
-    <input type="text" id="first_name">
-  </div>
-  <div>
-    <p>
-      <label>Last Name:*</label>
-      <input type="text" id="last_name">
-    </p>
-  </div>
-  <div>
-    <p>
-      <label>Email Address:*</label>
-      <input type="email" id="email_address">
-    </p>
-  </div>
-  <div>
-    <p>
-      <label>Password:*</label>
-      <input type="password" id="password">
-    </p>
-  </div>
-  <div>
-    <p>
-      <label>Confirm Password:*</label>
-      <input type="password" id="confirm_password">
-    </p>
-  </div>
-  <div>
-    <p>
-      <label>Birthday:*</label>
-      <input type="date" id="dob">
-    </p>
-  </div>
-  <div>
-    <p>Gender Identity:</p>
-    <input type="radio" value="male" id="male" name="gender_identity">
-    <label for="Male">Male</label>
+  <form action="#">
+    <h1>Registration Form</h1>
+    <div>
+      <label>First Name: *</label>
+      <input type="text" id="first_name">
+    </div>
+    <div>
+      <p>
+        <label>Last Name:*</label>
+        <input type="text" id="last_name">
+      </p>
+    </div>
+    <div>
+      <p>
+        <label>Email Address:*</label>
+        <input type="email" id="email_address">
+      </p>
+    </div>
+    <div>
+      <p>
+        <label>Password:*</label>
+        <input type="password" id="password">
+      </p>
+    </div>
+    <div>
+      <p>
+        <label>Confirm Password:*</label>
+        <input type="password" id="confirm_password">
+      </p>
+    </div>
+    <div>
+      <p>
+        <label>Birthday:*</label>
+        <input type="date" id="dob">
+      </p>
+    </div>
+    <div>
+      <p>Gender Identity:</p>
+      <input type="radio" value="male" id="male" name="gender_identity">
+      <label for="Male">Male</label>
 
-    <input type="radio" value="female" id="female" name="gender_identity">
-    <label for="female">Female</label>
+      <input type="radio" value="female" id="female" name="gender_identity">
+      <label for="female">Female</label>
 
-    <input type="radio" value="non-binary" id="non-binary" name="gender_identity">
-    <label for="non-binary">Non-Binary</label>
+      <input type="radio" value="non-binary" id="non-binary" name="gender_identity">
+      <label for="non-binary">Non-Binary</label>
 
-    <input type="radio" value="prefer_not" id="prefer_not" name="gender_identity">
-    <label for="PreferNot">I prefer not to answer</label>
-  </div>
-  <div>
-    <p>A short description about myself:</p>
-    <textarea name="description" cols="30" rows="4" id="description">
-    </textarea>
-  </div>
-  <div>
-    <p>
-      <label>Favorite Language</label>
-      <select name="favorite_language" id="favorite_language">
-        <option value="javascript">JavaScript</option>
-        <option value="python">Python</option>
-        <option value="php">PHP</option>
-        <option value="java">Java</option>
-      </select>
-    </p>
-  </div>
-  <div>
-    <input type="checkbox" id="email_checkbox">
-    <label for="email_checkbox">Yes, I would like to receive periodic email updates</label>
-  </div>
-  <div>
-    <p>
-      <input type="submit" value="create_account" id="create_account_button">
-    </p>
-  </div>
+      <input type="radio" value="prefer_not" id="prefer_not" name="gender_identity">
+      <label for="PreferNot">I prefer not to answer</label>
+    </div>
+    <div>
+      <p>A short description about myself:</p>
+      <textarea name="description" cols="30" rows="4" id="description">
+      </textarea>
+    </div>
+    <div>
+      <p>
+        <label>Favorite Language</label>
+        <select name="favorite_language" id="favorite_language">
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python</option>
+          <option value="php">PHP</option>
+          <option value="java">Java</option>
+        </select>
+      </p>
+    </div>
+    <div>
+      <input type="checkbox" id="email_checkbox">
+      <label for="email_checkbox">Yes, I would like to receive periodic email updates</label>
+    </div>
+    <div>
+      <p>
+        <input type="submit" value="create_account" id="create_account_button">
+      </p>
+    </div>
+</form>
   <p> * Indiates a required field</p>
 </body>
 </html>
