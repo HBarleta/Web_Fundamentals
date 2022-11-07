@@ -10,18 +10,18 @@
   <h1>Registration Form</h1>
   <div>
     <label>First Name: *</label>
-    <input type="text" id="firstName">
+    <input type="text" id="first_name">
   </div>
   <div>
     <p>
       <label>Last Name:*</label>
-      <input type="text" id="lastName">
+      <input type="text" id="last_name">
     </p>
   </div>
   <div>
     <p>
       <label>Email Address:*</label>
-      <input type="email" id="emailAddress">
+      <input type="email" id="email_address">
     </p>
   </div>
   <div>
@@ -33,7 +33,7 @@
   <div>
     <p>
       <label>Confirm Password:*</label>
-      <input type="password" id="confirmPassword">
+      <input type="password" id="confirm_password">
     </p>
   </div>
   <div>
@@ -44,43 +44,41 @@
   </div>
   <div>
     <p>Gender Identity:</p>
-    <input type="radio" value="Male" id="Male" name="genderIdentity">
+    <input type="radio" value="male" id="male" name="gender_identity">
     <label for="Male">Male</label>
 
-    <input type="radio" value="Female" id="Female" name="genderIdentity">
-    <label for="Female">Female</label>
+    <input type="radio" value="female" id="female" name="gender_identity">
+    <label for="female">Female</label>
 
-    <input type="radio" value="Non-Binary" id="Non-Binary" name="genderIdentity">
-    <label for="Non-Binary">Non-Binary</label>
+    <input type="radio" value="non-binary" id="non-binary" name="gender_identity">
+    <label for="non-binary">Non-Binary</label>
 
-    <input type="radio" value="PreferNot" id="PreferNot" name="genderIdentity">
+    <input type="radio" value="prefer_not" id="prefer_not" name="gender_identity">
     <label for="PreferNot">I prefer not to answer</label>
   </div>
   <div>
     <p>A short description about myself:</p>
-    <textarea name="Description" cols="30" rows="4" id="description">
+    <textarea name="description" cols="30" rows="4" id="description">
     </textarea>
   </div>
   <div>
     <p>
       <label>Favorite Language</label>
-      <select name="Favorite Language" id="favoriteLanguage">
-
-        <option value="JavaScript">JavaScript</option>
-        <option value="Python">Python</option>
-        <option value="PHP">PHP</option>
-        <option value="Java">Java</option>
-
+      <select name="favorite_language" id="favorite_language">
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="php">PHP</option>
+        <option value="java">Java</option>
       </select>
     </p>
   </div>
   <div>
-    <input type="checkbox" id="emailCheckbox">
-    <label for="emailCheckbox">Yes, I would like to receive periodic email updates</label>
+    <input type="checkbox" id="email_checkbox">
+    <label for="email_checkbox">Yes, I would like to receive periodic email updates</label>
   </div>
   <div>
     <p>
-      <input type="submit" value="Create Account" id="createAccountButton">
+      <input type="submit" value="create_account" id="create_account_button">
     </p>
   </div>
   <p> * Indiates a required field</p>
