@@ -1,0 +1,33 @@
+.search {
+  background-color: whitesmoke;
+  color: rgb(85, 201, 201);
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  border: 1.5pt solid rgb(85, 201, 201);
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  float: inline-start;
+}
+.add {
+  border: 1pt solid rgb(85, 201, 201);
+  border-radius: 50%;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(85, 201, 201);
+  color: white;
+  font-size: 15pt;
+  margin-left: 100px;
+}
+.createAccount {
+  margin-top: 10px;
+  margin-left: 100px;
+  box-shadow: 3px 2px 2px black;
+  border: 1.5pt solid black;
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(81, 133, 239);
+  color: white;
+}
