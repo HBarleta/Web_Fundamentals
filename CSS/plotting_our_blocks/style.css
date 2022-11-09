@@ -7,7 +7,6 @@
 .top-nav {
   height: 150px;
   background-color: green;
-  
   display: block;
 }
 .side-nav {
@@ -16,7 +15,6 @@
   background-color: blue;
   display: inline-block;
   margin: 10px 15px 10px 2px;
-
 }
 .main {
   height: 400px;

@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+img {
+  height: 200px;
+}
+.topCat {
+  background-color: rgb(17, 175, 237);
+  display:flex;
+  padding: 20px;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+
+.midCat {
+  margin: 20px;
+  display: flex;
+  background-color: pink;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.bottomCat {
+  display:flex;
+  background-color: blanchedalmond;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+}
