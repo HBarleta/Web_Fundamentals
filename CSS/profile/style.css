@@ -25,7 +25,6 @@
 
 .navbar-links ul, a {
   display: flex;
-
   text-decoration: none;
   color:white;
   font-size: 8pt;
@@ -73,8 +72,8 @@
 
 }
 .profile-card-top {
-background-color: rgb(4, 174, 200);
-height: 50px; 
+  background-color: rgb(4, 174, 200);
+  height: 50px; 
 
 }
 
@@ -87,8 +86,8 @@ height: 50px;
 }
 
 .profile-card-top h1 {
-margin-left: 20px;
-margin-top: -20px;
+  margin-left: 20px;
+  margin-top: -20px;
 
 }
 
@@ -141,7 +140,6 @@ margin-top: -20px;
 
 .profile-education-banner {
   background-color: darkslategray;
-  
   color: white;
   font-size: 8pt;
   padding: 10px 20px;
@@ -222,7 +220,6 @@ margin-top: -20px;
   display: flex;
   padding: 5px 10px;
   justify-content: space-between;
- 
 }
 
 .user1-profile {
@@ -238,7 +235,7 @@ margin-top: -20px;
 }
 
 .user1-accept {
- gap: 10px;
+  gap: 10px;
 }
 
 .your-connections {
@@ -295,5 +292,4 @@ margin-top: -20px;
 .your-connections-more a {
   color: blue;
   text-decoration: underline;
-  
 }
