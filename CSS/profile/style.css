@@ -147,7 +147,7 @@ margin-top: -20px;
 
 .profile-education {
   background-color: white;
-  height: 100px;
+  height: 75px;
   width: auto;
   margin-top: -20px;
   border-left: 2px solid rgb(207, 206, 206);
@@ -169,7 +169,7 @@ margin-top: -20px;
   font-size: 8pt;
 }
 
-.profile-education p {
+.profile-education h3 {
   font-size: 8pt;
   color: black;
 }
@@ -217,7 +217,7 @@ margin-top: -20px;
 
 .requests-user1 {
   display: flex;
-  padding: 10px 10px;
+  padding: 5px 10px;
   justify-content: space-between;
  
 }
