@@ -8,44 +8,43 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="navbar">
-  <h1>Dojonary</h1>
-  <input type="text" placeholder="Search">
-  <button>Login</button>
-</div>
-<div class="main">
-  <div class="definitions">
-    <div class="definition1">
-      <div class="definition1-details">
-        <h2></h2>
-        <h4></h4>
-        <p>Plural<span>ninjas</span></p>
-        <div class="definition-likes">
-          <button>13 Likes</button>
-        </div>
-      </div>
-      <div class="definition-definition">
-
-      </div>
-    </div>
-    <div class="definition2">
+  <div class="navbar">
+    <h1>Dojonary</h1>
+    
+    <input type="text" placeholder="search">
+    <!-- search bar with search placeholder -->
+    <button>Logout</button>
+    <!-- "login" initially and when clicked change innner text to log out -->
+  </div>
+  <div class="main">
+    <div>
       <div class="definition-details">
-        <h2></h2>
-        <h4></h4>
-        <p>Plural<span>ninjas</span></p>
-        <div class="definition-likes">
-          <button>13 Likes</button>
+        <div class="details-left">
+          <h2>ninja</h2>
+          <span>noun</span>
+          <p>Plural: <span>ninjas</span></p>   
+          <button onclick="alert('Ninja was liked')">13 likes</button>
+        </div>
+        <p>A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
       </div>
-      <div class="definition-definition">
-        <p><a href="#">programmer</a> <a href="#">zen</a></p>
+      <div class="definition-details">
+        <div class="details-left">
+          <h2>ninja</h2>
+          <span>noun</span>
+          <p>Plural: <span>ninjas</span></p>
+          <button onclick="alert('Ninja was liked')">37 likes</button>
+        </div>
+        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
       </div>
     </div>
+    <div class="add-definition">
+      <p>Dojonary is defined by <span>YOU</span></p>
+      <!-- dojonary defined by you -->
+      <button onclick="removeButton(this)">Add Definition</button>
+      <!-- add definition, script to remove button when clicked -->
+    </div>  
   </div>
-  <div class="add-definition">
-    <h2></h2>
-    <button></button>
-  </div>
-</div>
+
   <script src="script.js"></script>
 </body>
 </html>
