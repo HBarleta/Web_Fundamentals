@@ -38,6 +38,7 @@
   display: flex;
   width: 530px;
   margin: auto;
+  gap: 20px;
 }
 
 .definition-details {
@@ -78,7 +79,7 @@
 
 .add-definition {
   height: 80px;
-  margin: 20px 0px 20px 20px;
+  margin-top: 20px;
   border: 2px solid black;
   font-size: 10pt;
   padding: 10px;
