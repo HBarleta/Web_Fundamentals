@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Likes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="banner">Network</h1>
+  <h1 id="feed">Your Feed</h1>
+  <div class="main">
+    <div class="col-left">
+      <img src="img/user-circle.png" alt="profile picture">
+      <a href="#">Add an avatar</a>
+      <h2>James Doe</h2>
+    </div>
+    <div class="feed">
+      <div class="likes">
+        <div class="likes-top">
+          <h2>Neil M</h2>
+          <h2><span id="counter1">9</span> likes(s)</h2>
+          <button onclick="likeCounter('#counter1')">Like</button>
+        </div>
+        <h3>This is some filler text, it can say anything we like.</h3>
+      </div>
+      <div class="likes">
+        <div class="likes-top">
+          <h2>Nichole K</h2>
+          <h2><span id="counter2">12</span> likes(s)</h2>
+          <button onclick="likeCounter('#counter2')">Like</button>
+        </div>
+        <h3>This is some filler text, it can say anything we like.</h3>
+      </div>
+      <div class="likes">
+        <div class="likes-top">
+          <h2>Jim R</h2>
+          <h2><span id="counter3">9</span> likes(s)</h2>
+          <button onclick="likeCounter('#counter3')">Like</button>
+        </div>
+        <h3>This is some filler text, it can say anything we like.</h3>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
