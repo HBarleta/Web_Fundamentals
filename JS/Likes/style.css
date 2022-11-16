@@ -7,7 +7,7 @@
   background-color: black;
   color: white;
   margin: auto;
-  width: 610px;
+  width: 790px;
   padding: 10px;
 }
 
@@ -43,10 +43,10 @@
 }
 
 .likes {
-  width: fit-content;
+  width: auto;
   height: fit-content;
   border: 2px solid black;
-  padding: 30px;
+  padding: 40px;
   margin-bottom: 10px;
 }
 
@@ -63,6 +63,7 @@ button {
   font-size: 11pt;
 }
 
-h3 {
+p {
   margin-top: 20px;
+  font-size: 15pt;
 }
