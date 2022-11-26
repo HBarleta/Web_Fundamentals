@@ -17,13 +17,14 @@ function press (element){
 function setOP(operation){
     if (result === "" && first === ""){
         first = parseFloat(displayDiv.innerText);
-    } else if (result !== "" && second !== ""){
         Op = operation;
-        first = result;
+        displayDiv.innerText = "0";
+    } else {
+        displayDiv.innerText = "clearing";
+        setTimeout(() => {
+            clr();
+        }, 1000);
     }
-    Op = operation;
-    displayDiv.innerText = "0";
-    
 }
 
 function clr(){
@@ -38,13 +39,10 @@ function calculate(){
     if (result === "" && second === ""){
         second = parseFloat(displayDiv.innerText);
         result = eval(first + Op + second).toString().slice(0, 9);
-    } else if (result !== "" && second !==""){
+    } else {
         first = result;
         result = eval(first + Op + second).toString().slice(0, 9);
     }
-    console.log(first);
-    console.log(second);
-    
     displayDiv.innerText = result;
 }
 
