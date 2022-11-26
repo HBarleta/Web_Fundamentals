@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    color: white;
+}
+
+body {
+    background-image: url(./img/steel-background.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#calculator {
+    background-color: rgb(45, 45, 46);
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px grey;
+}
+
+#display {
+    font-size: 2em;
+    text-align: right;
+    background-color: rgba(181, 117, 39, 0.456);
+    margin: 5px;
+    border: 2px solid grey;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.row button {
+    font-size: 1.5em;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgb(141, 134, 134);
+    box-shadow: 0px 2px black;
+    opacity: 0.8;
+}
+button:hover {
+   opacity: 1;
+}
+
+button:active {
+    box-shadow: 0 0px black;
+    transform: translateY(2px);
+}
+
+
+.row #equals {
+    padding: 0px 48%;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.row {
+    margin: 10px;
+}
+
+.row .operator {
+    background-color: orange;
+}
