@@ -78,7 +78,8 @@ function displayLives(){
 displayWorld();
 displayPacman();
 displayghost();
-ghostMove();
+
+
 document.onkeydown = function(e){
     //move right
     if(e.keyCode === 39 && world[pacman.y][pacman.x+1] !== 2){
@@ -117,7 +118,4 @@ document.onkeydown = function(e){
         displayScore();
     }
     displayPacman();
-}
-function ghostMove(){
-    
 }
