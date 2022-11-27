@@ -1,3 +1,49 @@
+
+// var calculator = {
+    //     operand: null,
+    //     val1: null,
+    //     val2: null,
+    // result: null,
+    // }
+    
+    
+    // function press (el){
+        //     // replaces 0 with current element clicked
+        //     let number = parseFloat(el);
+        //     if(calculator.val1 === null){
+            //         calculator.val1 = number;
+            //         screen.innerText = number;
+            //     }  else {
+                //     // appends element if display is not 0
+                //         while(screen.innerText.length < 9){
+                    //             screen.innerText += parseFloat(number);
+                    //             break;
+//         }
+//     }
+// }
+
+// function setOP(operation){
+    //     // stores the desired operation
+    //     calculator.val1 = screen.innerText;
+    
+    //     // stores current screen as val1
+    //     // returns screen to display 0
+    // }
+    
+    // function clr(){
+        //     // resets all values in calculator object
+        //     calculator.val1 = null;
+        //     calculator.val2 = null;
+        //     calculator.operand = null;
+        //     calculator.result = null;
+        //     screen.innerText = 0;
+        
+        // }
+        
+        // function calculate(){
+            //     // calculates the result of val1 and val2 using desired operand
+            //     // returns value to display   
+            // }
 var displayDiv = document.querySelector("#display");
 var Op = "";
 var first = "";
@@ -10,22 +56,22 @@ function press (element){
         clr();
         displayDiv.innerText = `${element}`;
     } else if(displayDiv.innerText.split('').length < 9) {
-            displayDiv.innerText += `${element}`;
+        displayDiv.innerText += `${element}`;
     }
 }
 
-function setOP(operation){
-    if (result === "" && first === ""){
-        first = parseFloat(displayDiv.innerText);
-        Op = operation;
-        displayDiv.innerText = "0";
-    } else {
-        displayDiv.innerText = "clearing";
-        setTimeout(() => {
-            clr();
-        }, 1000);
+     function setOP(operation){
+        if (result === "" && first === ""){
+            first = parseFloat(displayDiv.innerText);
+            Op = operation;
+            displayDiv.innerText = "0";
+        } else {
+            displayDiv.innerText = "clearing";
+            setTimeout(() => {
+                clr();
+            }, 1000);
+        }
     }
-}
 
 function clr(){
     displayDiv.innerText = "0"
